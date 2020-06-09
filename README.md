@@ -10,6 +10,8 @@ The goal is to submit a pull request that accomplishes the following tasks. Whil
 
 Fork this repository to begin.
 
+Commit your changes to your fork, then email the link of your fork to careers@gameofapps.org.
+
 ## Challenge 1: Algorithms
 
 Your first challenge is to solve two algorithm questions. You'll be judged based on correctness, performance, and code readability.
