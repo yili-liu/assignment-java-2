@@ -1,4 +1,4 @@
-# Game of Apps Intern Interview
+# Game of Apps Development Intern Interview
 
 Thanks for your interest in the Game of Apps developer intern position! This repo contains a list of tasks for you to do, so we can get a gauge of your skill and passion for development.
 
