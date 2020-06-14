@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">GOAImageDisplay</string>
     <string name="button_text">Add</string>
-    <string name="text_box">Paste_an_image_url_here</string>
+    <string name="text_box">Paste_Your_Image_URL_Here</string>
 </resources>
