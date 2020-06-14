@@ -146,17 +146,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
 
+        String toastMessage = "";
+
         // if connection is successfully established
         if (ImageData.status == 1) {
             // add image
             addImage(ImageData.img);
 
+            // set feedback message
+            toastMessage = "Image appended!";
+
             // if an invalid url has been inputted
         } else if (ImageData.status == 2) {
-            // display status message to user
-            Toast toast = Toast.makeText(this, "Invalid URL.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage = "Invalid URL.";
         }
+
+        // display status message to user
+        Toast toast = Toast.makeText(this, toastMessage, Toast.LENGTH_SHORT);
+        toast.show();
 
         // reset status number
         ImageData.status = 0;
